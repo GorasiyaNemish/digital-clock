@@ -4,7 +4,7 @@ let hh = document.getElementById('hh');
 let ampm = document.getElementById('ampm');
 function setClockTime() {
     let d = new Date();
- 
+    let h = d.getHours();
     let m = d.getMinutes();
     let s = d.getSeconds();
     // alert(d);
